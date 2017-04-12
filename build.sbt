@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "Benjamin Walker benjamin.walker@appdynamics.com"
+packageSummary := "My custom package"
+packageDescription := "Package"
